@@ -1,0 +1,11 @@
+{
+  "/rest/api/*": {
+    "target": "http://localhost:8099",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/rest/api": ""
+    }
+  }
+}
