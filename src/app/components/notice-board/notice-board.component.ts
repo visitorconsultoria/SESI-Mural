@@ -133,8 +133,8 @@ import { Observable, combineLatest, map } from 'rxjs';
     .bg-background { background-color: hsl(var(--background)); }
     .bg-accent { background-color: hsl(var(--accent)); }
     .text-destructive { color: hsl(var(--destructive)); }
-    .bg-destructive\/10 { background-color: hsl(var(--destructive) / 0.1); }
-    .border-destructive\/20 { border-color: hsl(var(--destructive) / 0.2); }
+    .bg-destructive\\/10 { background-color: hsl(var(--destructive) \/ 0.1); }
+    .border-destructive\\/20 { border-color: hsl(var(--destructive) \/ 0.2); }
     
     .animate-spin {
       animation: spin 1s linear infinite;

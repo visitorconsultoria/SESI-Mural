@@ -43,10 +43,10 @@ import { LucideAngularModule, Home, AlertTriangle } from 'lucide-angular';
     .bg-primary { background-color: hsl(var(--primary)); }
     .text-primary { color: hsl(var(--primary)); }
     .text-primary-foreground { color: hsl(var(--primary-foreground)); }
-    .bg-primary\/10 { background-color: hsl(var(--primary) / 0.1); }
-    .via-muted\/30 { --tw-gradient-via: hsl(var(--muted) / 0.3); }
+    .bg-primary\\/10 { background-color: hsl(var(--primary) \/ 0.1); }
+    .via-muted\\/30 { --tw-gradient-via: hsl(var(--muted) \/ 0.3); }
     .text-muted-foreground { color: hsl(var(--muted-foreground)); }
-    .hover\\:bg-primary\\/90:hover { background-color: hsl(var(--primary) / 0.9); }
+    .hover\\:bg-primary\\/90:hover { background-color: hsl(var(--primary) \/ 0.9); }
   `]
 })
 export class NotFoundComponent {

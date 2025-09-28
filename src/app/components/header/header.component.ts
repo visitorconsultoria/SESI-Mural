@@ -38,7 +38,7 @@ import { LucideAngularModule, Clock, Calendar } from 'lucide-angular';
             <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
               <lucide-icon [img]="CalendarIcon" class="w-5 h-5"></lucide-icon>
               <span class="text-sm font-medium capitalize">
-                {{ currentTime | date:'EEEE, dd \'de\' MMMM \'de\' yyyy':'pt-BR' }}
+                {{ currentTime | date:"EEEE, dd 'de' MMMM 'de' yyyy":'pt-BR' }}
               </span>
             </div>
           </div>
@@ -60,8 +60,8 @@ import { LucideAngularModule, Clock, Calendar } from 'lucide-angular';
       color: hsl(var(--primary-foreground));
     }
     
-    .text-primary-foreground\/80 {
-      color: hsl(var(--primary-foreground) / 0.8);
+    .text-primary-foreground\\/80 {
+      color: hsl(var(--primary-foreground) \/ 0.8);
     }
   `]
 })

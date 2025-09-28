@@ -48,8 +48,8 @@ import { QuickAccessComponent } from '../../components/quick-access/quick-access
     }
 
     .bg-background { background-color: hsl(var(--background)); }
-    .bg-primary\/5 { background-color: hsl(var(--primary) / 0.05); }
-    .via-muted\/30 { --tw-gradient-via: hsl(var(--muted) / 0.3); }
+    .bg-primary\\/5 { background-color: hsl(var(--primary) \/ 0.05); }
+    .via-muted\\/30 { --tw-gradient-via: hsl(var(--muted) \/ 0.3); }
     .text-muted-foreground { color: hsl(var(--muted-foreground)); }
     .border-t { border-top: 1px solid hsl(var(--border)); }
   `]

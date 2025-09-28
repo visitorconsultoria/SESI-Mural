@@ -65,12 +65,15 @@ interface QuickAccessLink {
 
     .bg-primary { background-color: hsl(var(--primary)); }
     .text-primary { color: hsl(var(--primary)); }
-    .bg-primary\/10 { background-color: hsl(var(--primary) / 0.1); }
-    .border-primary\/10 { border-color: hsl(var(--primary) / 0.1); }
+    .bg-primary\\/10 { background-color: hsl(var(--primary) \/ 0.1); }
+    .border-primary\\/10 { border-color: hsl(var(--primary) \/ 0.1); }
     .bg-card { background-color: hsl(var(--card)); }
     .text-muted-foreground { color: hsl(var(--muted-foreground)); }
     .bg-background { background-color: hsl(var(--background)); }
     .bg-accent { background-color: hsl(var(--accent)); }
+    .bg-primary\\/90 { background-color: hsl(var(--primary) \/ 0.9); }
+    .hover\\:bg-primary\\/90:hover { background-color: hsl(var(--primary) \/ 0.9); }
+    .hover\\:bg-accent\\/90:hover { background-color: hsl(var(--accent) \/ 0.9); }
   `]
 })
 export class QuickAccessComponent {

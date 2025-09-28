@@ -186,6 +186,21 @@ import { Notice } from '../../models/notice.model';
     .text-foreground { color: hsl(var(--foreground)); }
     .bg-muted { background-color: hsl(var(--muted)); }
     .bg-accent { background-color: hsl(var(--accent)); }
+    .bg-red-500\\/10 { background-color: hsl(0 84% 60% \/ 0.1); }
+    .text-red-700 { color: hsl(0 74% 42%); }
+    .border-red-200 { border-color: hsl(0 75% 88%); }
+    .bg-red-500\\/15 { background-color: hsl(0 84% 60% \/ 0.15); }
+    .hover\\:bg-red-500\\/25:hover { background-color: hsl(0 84% 60% \/ 0.25); }
+    .bg-amber-500\\/10 { background-color: hsl(45 93% 47% \/ 0.1); }
+    .text-amber-700 { color: hsl(36 77% 49%); }
+    .border-amber-200 { border-color: hsl(48 96% 89%); }
+    .bg-amber-500\\/15 { background-color: hsl(45 93% 47% \/ 0.15); }
+    .hover\\:bg-amber-500\\/25:hover { background-color: hsl(45 93% 47% \/ 0.25); }
+    .bg-blue-500\\/10 { background-color: hsl(217 91% 60% \/ 0.1); }
+    .text-blue-700 { color: hsl(212 84% 49%); }
+    .border-blue-200 { border-color: hsl(214 95% 93%); }
+    .bg-blue-500\\/15 { background-color: hsl(217 91% 60% \/ 0.15); }
+    .hover\\:bg-blue-500\\/25:hover { background-color: hsl(217 91% 60% \/ 0.25); }
   `]
 })
 export class NoticeCardComponent {
